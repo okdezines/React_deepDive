@@ -20,8 +20,8 @@ export default function Tasks({ onAdd, onDelete, tasks }) {
             <div className="flex items-center justify-between">
               <span className="text-stone-600">{task.text}</span>
               <button
-                onClick={() => onDelete(task.id)}
                 className="text-stone-600 hover:text-stone-950"
+                onClick={() => onDelete(task.id)}
               >
                 Clear
               </button>
